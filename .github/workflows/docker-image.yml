@@ -34,7 +34,7 @@ jobs:
         
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-        echo: "New Version: $NEW_VERSION!!!!!!"
+        echo "New Version: $NEW_VERSION!!!!!!"
    #   echo "login end"
 #     - name: Build Docker image
 #       run: | 
